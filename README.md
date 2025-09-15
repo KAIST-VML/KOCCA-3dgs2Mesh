@@ -288,7 +288,11 @@ dependencies:
 ### 1. Clone the repository:
 
 
-   1. clone sub-module
+   1. clone
+  ```bash
+    git clone https://github.com/KAIST-VML/KOCCA-3dgs2Mesh.git
+  ```
+
 
    ```bash
       git submodule update --init --recursive
