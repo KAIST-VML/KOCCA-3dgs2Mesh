@@ -293,10 +293,6 @@ dependencies:
     git clone https://github.com/KAIST-VML/KOCCA-3dgs2Mesh.git
   ```
 
-
-   ```bash
-      git submodule update --init --recursive
-   ```  
 <br>
 
 ### 2. Create and activate the Conda environment:
