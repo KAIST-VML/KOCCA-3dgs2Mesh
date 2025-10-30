@@ -408,11 +408,12 @@ we use vessl server which is ubuntu environment without any GUI. But, COLMAP nee
 
 1. **Prepare folders:**
    - Place `my_video_input.mp4` inside `3dgs_sugar_unified/data/my_video/`.
-   - Create `input_img/` folder. ⚠️ you must not name the other name, only "input" can be allowed.
-   - Total path: `3dgs_sugar_unified/data/my_video/input_img`
+   - Create `input_img/` folder.
    ```bash
    mkdir -p data/my_video/input_img
    ```
+   - Total path: `3dgs_sugar_unified/data/my_video/input_img`
+
 
 2. **Extract frames using FFmpeg:**
    ```bash
