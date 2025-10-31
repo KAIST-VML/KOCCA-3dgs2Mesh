@@ -390,12 +390,15 @@ xvfb is program that generate virtual monitor.
 we use vessl server which is ubuntu environment without any GUI. But, COLMAP need GUI for execute.
 <br>So, We can use this virtual monitor without a real monitor.
 
-**Install xvfb:**
+**Install xvfb & pytorch3d & ninja:**
 
 ```bash
-   sudo apt-get update
-   sudo apt-get install xvfb
+sudo apt-get update
+sudo apt-get install xvfb
+pip install "git+https://github.com/facebookresearch/pytorch3d.git@main"
+pip install ninja
 ```
+
 
 
 ---
